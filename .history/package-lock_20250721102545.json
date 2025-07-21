@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+  "name": "vite-react_project",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {}
+=======
   "name": "package.json",
   "version": "0.0.0",
   "lockfileVersion": 3,
@@ -3415,4 +3421,5 @@
       }
     }
   }
+>>>>>>> e8074b34eb554434a4e9e9dfb424e2f855bcd10c
 }
