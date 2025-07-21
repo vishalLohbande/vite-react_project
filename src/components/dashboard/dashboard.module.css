@@ -1,0 +1,38 @@
+.C2wDashboard_ctn{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #020a14;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.C2wDasboard_content_holder{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.C2wDashboard_sidebar{
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.C2wDashBoard_Right_route_ctn{
+    width: calc(100% - 310px);
+    height: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
