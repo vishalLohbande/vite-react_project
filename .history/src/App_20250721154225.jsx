@@ -9,7 +9,7 @@ import { SUPERADMIN } from './routeFile'
 function App() {
 
   return (
-    <BrowserRouter basename="/vite-react_project/">
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<C2wDashboardLogin />} />
         <Route path={SUPERADMIN} element={<C2wDashboard />} />

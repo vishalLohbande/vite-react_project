@@ -6,10 +6,11 @@
   "homepage": "https://vishallohbande.github.io/vite-react_project/",
   "scripts": {
     "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "npm run build && rm -rf docs && mkdir docs && cp -r dist/* docs && git add docs && git commit -m 'Deploy via docs folder' && git push origin main"
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
